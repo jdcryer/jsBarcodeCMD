@@ -6,7 +6,8 @@
   "bin": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . --compress=GZip -t node16-win-x64"
   },
   "repository": {
     "type": "git",
