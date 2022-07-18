@@ -1,0 +1,8 @@
+node_modules
+
+jsbarcodecmd*
+
+.DS_Store
+.vscode
+.prettierrc
+package-lock.json

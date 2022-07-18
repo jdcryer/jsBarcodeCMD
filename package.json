@@ -1,0 +1,26 @@
+{
+  "name": "jsbarcodecmd",
+  "version": "1.0.0",
+  "description": "jsBarcode command line wrapper",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdcryer/jsBarcodeCMD.git"
+  },
+  "author": "Joseph Cryer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdcryer/jsBarcodeCMD/issues"
+  },
+  "homepage": "https://github.com/jdcryer/jsBarcodeCMD#readme",
+  "dependencies": {
+    "jsbarcode": "^3.11.5",
+    "minimist": "^1.2.6",
+    "xmldom": "^0.6.0"
+  }
+}
