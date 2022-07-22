@@ -53,6 +53,7 @@ As a 4D Developer I call this from a method in my database that is run at server
 
 JS_Barcode(bracodeValue;optionsObject;codec) - Function returns an image (currently doing nothing with the err out)
 
+```
 C_TEXT($1; $3; $vt_path; $vt_script; $dqt)
 C_OBJECT($2)
 C_PICTURE($0; $vg_pict)
@@ -98,11 +99,4 @@ $0:=$vg_pict
 	valid         function(valid){} Function
 */
 
-
 ```
-node index.js --value="123456789" --codec="svg"
-
-node index.js --value="987654321" --options="{\"width\": 30, \"height\": 15}" --codec="png"
-```
-
-Running the executable follows the same pattern.
